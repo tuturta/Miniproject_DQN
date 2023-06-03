@@ -76,7 +76,6 @@ class RussoAgent(Agent):
         Example agent implementation. Just picks a random action at each time step.
         """
         self.env = env
-        self.action_dim
         # count number of successive weeks of confinement
         self.conf_counter = 0
         
