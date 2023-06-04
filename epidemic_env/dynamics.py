@@ -238,7 +238,7 @@ class ModelDynamics():
         
     
     
-    def start_epidemic(self, seed=10, sources=1, prop=0.01):
+    def start_epidemic(self, seed=42, sources=1, prop=0.01):
         """ Starts the epidemic (infects a given proportion of the population in one or more randomly chosen cities).
         
         
